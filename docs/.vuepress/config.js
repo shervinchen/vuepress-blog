@@ -1,7 +1,8 @@
 module.exports = {
   "title": "Csdoker's Blog",
-  "description": "个人博客",
+  "description": "欢迎来到我的个人博客，我会在这里记录下关于学习和生活的点点滴滴",
   "dest": "public",
+  "permalink": "/:year/:month/:day/:slug",
   "head": [
     [
       "link",
@@ -23,36 +24,46 @@ module.exports = {
     "nav": [
       {
         "text": "主页",
-        "link": "/",
+        "link": "https://csdoker.com",
         "icon": "reco-home"
+      },
+      {
+        "text": "GitHub",
+        "link": "https://github.com/csdoker",
+        "icon": "reco-github"
+      },
+      {
+        "text": "联系",
+        "icon": "reco-friend",
+        "items": [
+          {
+            "text": "QQ",
+            "link": "http://wpa.qq.com/msgrd?v=3&uin=758371536&site=qq&menu=yes",
+            "icon": "reco-qq"
+          },
+          {
+            "text": "微信",
+            "link": "https://i.loli.net/2020/04/30/x8ILiKaCQYcBJjF.jpg",
+            "icon": "reco-wechat"
+          }
+        ]
       },
       {
         "text": "时间轴",
         "link": "/timeline/",
         "icon": "reco-date"
-      },
-      {
-        "text": "联系",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "GitHub",
-            "link": "https://github.com/csdoker",
-            "icon": "reco-github"
-          }
-        ]
       }
     ],
     "type": "blog",
     "blogConfig": {
-      "category": {
-        "location": 2,
-        "text": "Category"
-      },
-      "tag": {
-        "location": 3,
-        "text": "Tag"
-      }
+      // "category": {
+      //   "location": 2,
+      //   "text": "Category"
+      // },
+      // "tag": {
+      //   "location": 3,
+      //   "text": "Tag"
+      // }
     },
     // "friendLink": [
     //   {
@@ -75,8 +86,9 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "csdoker",
     "authorAvatar": "/avatar.jpg",
-    "record": "xxxx",
-    "startYear": "2017"
+    "record": "蜀ICP备17025658号",
+    "recordLink": "http://www.beian.miit.gov.cn/",
+    "startYear": "2015"
   },
   "markdown": {
     "lineNumbers": true
