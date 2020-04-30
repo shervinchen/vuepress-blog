@@ -22,22 +22,22 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-        "text": "Home",
+        "text": "主页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "时间轴",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "Contact",
+        "text": "联系",
         "icon": "reco-message",
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/csdoker",
             "icon": "reco-github"
           }
         ]
@@ -54,20 +54,20 @@ module.exports = {
         "text": "Tag"
       }
     },
-    "friendLink": [
-      {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
-      }
-    ],
+    // "friendLink": [
+    //   {
+    //     "title": "午后南杂",
+    //     "desc": "Enjoy when you can, and endure when you must.",
+    //     "email": "1156743527@qq.com",
+    //     "link": "https://www.recoluan.com"
+    //   },
+    //   {
+    //     "title": "vuepress-theme-reco",
+    //     "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+    //     "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+    //     "link": "https://vuepress-theme-reco.recoluan.com"
+    //   }
+    // ],
     "logo": "/logo.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
