@@ -1,6 +1,6 @@
-# vuepress-theme-reco-demo
+# 个人博客
 
-Blog demo for vuepress-theme-reco
+使用`vuepress`搭建，主题为`vuepress-theme-reco`
 
 ```bash
 # 编译
