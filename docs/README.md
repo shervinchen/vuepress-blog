@@ -1,7 +1,7 @@
 ---
 home: true
 permalink: /
-# bgImage: '/hero.png'
+bgImage: '/hero.jpg'
 bgImageStyle: {
   height: '450px'
 }
