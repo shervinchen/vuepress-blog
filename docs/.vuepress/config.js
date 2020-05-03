@@ -59,6 +59,7 @@ module.exports = {
         "icon": "reco-date"
       }
     ],
+    "themePicker": false,
     "type": "blog",
     "blogConfig": {
       // "category": {
