@@ -45,6 +45,11 @@ module.exports = {
             "text": "微信",
             "link": "https://i.loli.net/2020/04/30/x8ILiKaCQYcBJjF.jpg",
             "icon": "reco-wechat"
+          },
+          {
+            "text": "邮箱",
+            "link": "mailto:csd758371536@qq.com",
+            "icon": "reco-mail"
           }
         ]
       },
