@@ -60,6 +60,10 @@ module.exports = {
       }
     ],
     "themePicker": false,
+    "valineConfig": {
+      "appId": "GHL0sbqU1jClssv8LjFY8Yzs-gzGzoHsz",
+      "appKey": "q1FYV8Bjs8Lj30XvIvUznLVQ",
+    },
     "type": "blog",
     "blogConfig": {
       // "category": {
