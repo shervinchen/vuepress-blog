@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "vuepress": "1.4.1",
-    "vuepress-theme-reco": "1.4.5"
+    "vuepress-theme-reco": "1.6.14"
   },
   "description": "个人博客"
 }
